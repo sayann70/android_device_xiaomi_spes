@@ -241,8 +241,9 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 # Sensor multi HAL
 USE_SENSOR_MULTI_HAL := true
 
-# Treble flag
+# VNDK
 BOARD_VNDK_VERSION := current
+NEED_AIDL_NDK_PLATFORM_BACKEND := true
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
