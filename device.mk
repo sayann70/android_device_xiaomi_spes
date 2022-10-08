@@ -471,7 +471,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom-caf/bootctrl
+    $(LOCAL_PATH)/hals/display/display-commonsys-intf \
+    hardware/xiaomi
 
 # Telephony
 PRODUCT_PACKAGES += \
