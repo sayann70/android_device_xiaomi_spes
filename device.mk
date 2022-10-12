@@ -560,10 +560,10 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Recorder
-PRODUCT_PACKAGES += \
-    RecorderPrebuilt \
-    PrebuiltGmail
+#PRODUCT_PACKAGES += \
+   # RecorderPrebuilt \
+  #  PrebuiltGmail
 
 # PixelLauncherCustomOverlay
-PRODUCT_PACKAGES += \
-    PixelLauncherCustomOverlaySpes
+#PRODUCT_PACKAGES += \
+ #   PixelLauncherCustomOverlaySpes
