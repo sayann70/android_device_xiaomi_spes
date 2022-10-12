@@ -555,10 +555,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # Recorder
 PRODUCT_PACKAGES += \
     RecorderPrebuilt \
